@@ -313,4 +313,4 @@ document.addEventListener(`DOMContentLoaded`, function () {
   // });
 }); //end
 
-// 수정1차;
+// 수정2차;
