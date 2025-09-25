@@ -189,6 +189,7 @@
 .hamburger_btn .flex_wrap {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .hamburger_btn .top_box {
   display: flex;
@@ -201,7 +202,7 @@
   cursor: pointer;
 }
 .hamburger_btn .content_wrap {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -233,8 +234,8 @@
   justify-content: space-between;
   align-items: center;
 }
-.hamburger_btn .center_box .sub_box,
-.hamburger_btn .bottom_box .sub_box {
+
+.hamburger_btn .sub_box {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -307,6 +308,14 @@
 .hamburger_btn .main_promise .sub_box_promise.on,
 .hamburger_btn .main_news .sub_box_news.on,
 .hamburger_btn .main_customer .sub_box_customer.on {
+  display: flex;
+}
+
+.hamburger_btn .main .sub_box {
+  display: none;
+}
+
+.hamburger_btn .main.on .sub_box {
   display: flex;
 }
 /* --------------------- */
@@ -490,16 +499,6 @@
   background: url(../photo/banner.png) no-repeat center / cover;
 }
 
-/* .banner_box .banner_main_box .bg_box {
-  width: 100%;
-  height: 808px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  z-index: -9;
-} */
 .banner_box .banner_main_box .text_wrap {
   height: 808px;
   display: flex;
@@ -572,16 +571,12 @@
 .banner_box .banner_sub_box .banner_sub2 .slide1 .text_box1 .text,
 .banner_box .banner_sub_box .banner_sub2 .slide2 .text_box1 .text {
   width: fit-content;
-  /* height: 33px; */
   font-size: 0.87rem;
   font-weight: 200;
 
   background-color: #fae100;
   border-radius: 8px;
   padding: 6px 12px;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .banner_box .banner_sub_box .banner_sub2 .slide1 .text_box2,
@@ -853,6 +848,8 @@
   display: flex;
   gap: 16px;
   margin-top: 62px;
+
+  /* width: 1368px; */
 }
 .sec_3 .card_grid_box .card_box1 .card {
   background-color: #f3f3f3;
@@ -938,7 +935,14 @@
   gap: 16px;
   margin-top: 60px;
   height: 208px;
+
+  /* width: 1384px; */
 }
+
+.sec_3 .card_grid_box .card_box2 .swiper-pagination {
+  display: none;
+}
+
 .sec_3 .card_grid_box .card_box2 .card {
   background-color: #f3f3f3;
   border-radius: 20px;
@@ -1581,12 +1585,16 @@
   .sec_3 .card_grid_box .card_box1 .image_box {
     height: 240px;
   }
+  /* .sec_3 .card_grid_box .card_box1 .card_wrap {
+    width: 968px;
+  } */
   .sec_3 .card_grid_box .card_box2 .card .text_box2 {
     font-size: 1.25rem;
   }
   .sec_3 .card_grid_box .card_box2 .card_wrap {
     margin-top: 40px;
     height: 172px;
+    /* width: 984px; */
   }
   .sec_3 .card_grid_box .card_box3 .card {
     font-size: 1.25rem;
@@ -1711,8 +1719,8 @@
 
 @media (max-width: 1050px) {
   .container {
-    width: 600px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 0 32px;
   }
 
   /* ---------------------------- */
@@ -1892,9 +1900,14 @@
   .sec_3 .card_grid_box .card_box2 .card_wrap {
     margin-top: 24px;
     height: 164px;
+    gap: 0;
   }
   .sec_3 .card_grid_box .card_box1 .card_wrap {
     margin-top: 20px;
+    gap: 0;
+  }
+  .sec_3 .card_grid_box .card_box2 .swiper-pagination {
+    display: block;
   }
 
   /* ---------------------------- */
@@ -1927,19 +1940,25 @@
   .sec_4 .card_grid_box .card_box1 .card3 {
     width: 350px;
   }
-  .sec_4 .card_grid_box .card_box1 .card2,
-  .sec_4 .card_grid_box .card_box2 .card2,
-  .sec_4 .card_grid_box .card_box3 .card2 {
+  .sec_4 .card_grid_box .card2 {
     height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .sec_4 .card_grid_box .card_box .next_btn {
     margin: 32px;
   }
+  .sec_4 .card_grid_box .card_box {
+    padding-bottom: 65.306%;
+    position: relative;
+    height: 0;
+  }
   .sec_4 .card_grid_box .card_box .card1 {
     width: 236px;
-    height: 52px;
+    /* height: 52px; */
   }
-
   /* ---------------------------- */
   /* sec5 영역 */
 
@@ -2146,8 +2165,7 @@
 /* ///////////////////////////////////////// */
 @media (max-width: 760px) {
   .container {
-    width: 460px;
-    margin: 0 auto;
+    padding: 0 16px;
   }
   .header_box .header_text {
     font-size: 1.75rem;
@@ -2252,11 +2270,6 @@
 
 /* ///////////////////////////////////////// */
 @media (max-width: 500px) {
-  .container {
-    width: 100%;
-    padding: 0 16px;
-  }
-
   .header_area .header_box {
     width: 100%;
     margin-top: 16px;
@@ -2353,11 +2366,6 @@
     height: 40px;
   }
 
-  .sec_4 .card_grid_box .card_box {
-    width: 343px;
-    height: 224px;
-    /* width: 100%; */
-  }
   .sec_4 .card_grid_box .card_box {
     position: relative;
   }
