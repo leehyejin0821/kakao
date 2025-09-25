@@ -1,0 +1,2125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+
+    <title>layout_kakao</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header_area">
+        <div class="container">
+          <div class="header_box">
+            <div class="logo_box">
+              kakao
+              <!-- <img src="./photo/logo.svg" alt="" /> -->
+            </div>
+            <div class="main_menu_box">
+              <ul class="main_menu">
+                <li data-tab="tab1" class="menu">소개</li>
+                <li data-tab="tab2" class="menu">기술과 서비스</li>
+                <li data-tab="tab3" class="menu">약속과 책임</li>
+                <li data-tab="tab4" class="menu">소식</li>
+                <li class="menu">
+                  투자정보
+                  <svg
+                    viewBox="0 0 8 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_497_145)">
+                      <path
+                        d="M1.34876 6.74402L6.74402 1.34875"
+                        stroke="#202020"
+                        stroke-width="0.809289"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M1.73401 1.34875H6.74389V6.35864"
+                        stroke="#202020"
+                        stroke-width="0.809289"
+                        stroke-linecap="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_497_145">
+                        <rect width="8" height="8" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="icon_box">
+              <div class="icon icon1">
+                <img src="./photo/search_icon.svg" alt="" />
+              </div>
+              <div class="icon icon2">
+                <img src="./photo/global_icon.svg" alt="" />
+              </div>
+              <div class="icon icon3">
+                <img src="./photo/moon_icon.svg" alt="" />
+              </div>
+              <div class="icon icon4">
+                <img src="./photo/hamburger_icon.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="search_btn">
+        <div class="container">
+          <div class="top_box">
+            <div class="logo_box">
+              <!-- <img src="./photo/logo.svg" alt="" /> -->
+              kakao
+            </div>
+
+            <div class="close_btn">
+              <img src="./photo/close.svg" alt="" />
+            </div>
+          </div>
+          <div class="content_box">
+            <div class="text_wrap">
+              <div class="center_box">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 19.8972L16.3096 16.2068"
+                    stroke="#FFFFFF"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.24484 9.32247C4.90883 6.84441 6.8444 4.90883 9.32246 4.24484C11.8005 3.58086 14.4445 4.28932 16.2586 6.1034C18.0726 7.91744 18.7811 10.5615 18.1171 13.0395C17.4531 15.5176 15.5176 17.4531 13.0395 18.1171C10.5615 18.7811 7.91743 18.0727 6.10339 16.2586C4.28932 14.4445 3.58086 11.8005 4.24484 9.32247Z"
+                    stroke="#FFFFFF"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <input type="search" placeholder="무엇이 궁금하신가요?" />
+              </div>
+              <div class="bottom_box">
+                <div class="word">#한강버스</div>
+                <div class="word">#AI협력</div>
+                <div class="word">#카카오톡 개편</div>
+                <div class="word">#쓰는이에집중쓰기좋게맞춤</div>
+                <div class="word">#캠페인티저</div>
+              </div>
+            </div>
+            <div class="image_box">
+              <img src="./photo/search_sub_icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hamburger_btn">
+        <div class="flex_wrap">
+          <div class="top_box">
+            <div class="icon">
+              <img src="./photo/moon_icon.svg" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./photo/global_icon.svg" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./photo/close.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="content_wrap">
+            <div class="center_box">
+              <ul class="main">
+                <div class="title">
+                  소개
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <div class="sub_box">
+                  <li class="sub">카카오 문화</li>
+                  <li class="sub">카카오 그룹</li>
+                  <li class="sub">연혁</li>
+                </div>
+              </ul>
+              <ul class="main">
+                <div class="title">
+                  기술과 서비스
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <div class="sub_box sub_box_tech">
+                  <div class="sub_content sub_content1">
+                    <div class="sub_head">기술</div>
+                    <div class="sub_body">
+                      <div class="sub_wrap">
+                        <li class="sub">카카오테크</li>
+                        <li class="sub">기술 서비스</li>
+                        <li class="sub">기술 이벤트</li>
+                      </div>
+                      <div class="sub_wrap">
+                        <li class="sub">기술 플랫폼</li>
+                        <li class="sub">기술 콘텐츠</li>
+                        <li class="sub">if(kakao)</li>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sub_content sub_content2">
+                    <div class="sub_head">서비스</div>
+                    <div class="sub_body">
+                      <div class="sub_wrap">
+                        <li class="sub">커뮤니케이션</li>
+                        <li class="sub">비즈니스</li>
+                        <li class="sub">엔터테인먼트</li>
+                      </div>
+                      <div class="sub_wrap">
+                        <li class="sub">일상 편의</li>
+                        <li class="sub">쇼핑</li>
+                        <li class="sub">소셜임팩트</li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+              <ul class="main">
+                <div class="title">
+                  약속과 책임
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <div class="sub_box">
+                  <li class="sub">ESG 보고서</li>
+                  <li class="sub">프로젝트 단골</li>
+                  <li class="sub">액티브그린</li>
+                  <li class="sub">디지털 책임</li>
+                  <li class="sub">사회경제적 가치</li>
+                </div>
+              </ul>
+              <ul class="main">
+                <div class="title">
+                  소식
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <div class="sub_box sub_box_news">
+                  <div class="sub_content sub_content1">
+                    <div class="sub_head">뉴스</div>
+                    <li class="sub">보도자료</li>
+                    <li class="sub">미디어자료</li>
+                  </div>
+                  <div class="sub_content sub_content2">
+                    <div class="sub_head">카카오나우</div>
+                    <li class="sub">카카오이야기</li>
+                    <li class="sub">그룹사이야기</li>
+                  </div>
+                </div>
+              </ul>
+              <ul class="main">
+                <div class="title">
+                  투자정보
+                  <img src="./photo/arrow_top.svg" alt="" />
+                </div>
+              </ul>
+            </div>
+
+            <div class="bottom_box">
+              <div class="main">
+                <div class="title">
+                  인재영입
+                  <img src="./photo/arrow_left.svg" alt="" />
+                </div>
+              </div>
+              <div class="main">
+                <div class="title">
+                  고객센터 <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <div class="sub_box">
+                  <li class="sub">카카오 고객센터</li>
+                  <li class="sub">Daum 고객센터</li>
+                  <li class="sub">커머스 고객센터</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="main_menu_btn">
+        <li
+          id="tab1"
+          class="sub_menu_box sub_menu_box_intro swiper menu_Swiper"
+        >
+          <div class="sub_menu swiper-wrapper">
+            <div class="left_box">
+              <div class="text_box">
+                <div class="text_sub">카카오문화</div>
+                <div class="text_sub">카카오그룹</div>
+                <div class="text_sub">연혁</div>
+              </div>
+            </div>
+
+            <div class="content_wrap swiper menu_Swiper">
+              <div class="swiper_wrap swiper-wrapper">
+                <div class="right_box right_box1 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu1_bg1.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu1_icon1.png" alt="" />
+                        </div>
+                        <div class="text_sub2">카카오 문화</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">사람을 이해하는 기술로</div>
+                        <div class="text_sub">필요한 미래를 더 가깝게</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page3_1.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box2 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu1_bg2.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu1_icon2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">카카오 그룹</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">카카오가 만든 더 나은 세상</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page3_2.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box3 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu1_bg3.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu1_icon3.png" alt="" />
+                        </div>
+                        <div class="text_sub2">연혁</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">카카오가 걸어온 길</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page3_3.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="tab2" class="sub_menu_box sub_menu_box_tech swiper menu_Swiper">
+          <div class="sub_menu swiper-wrapper">
+            <div class="left_box">
+              <div class="text_box">
+                <div class="text_head">기술</div>
+                <div class="text_sub">카카오테크</div>
+                <div class="text_sub">기술 플랫폼</div>
+                <div class="text_sub">기술 서비스</div>
+                <div class="text_sub">기술 콘텐츠</div>
+                <div class="text_sub">기술 이벤트</div>
+                <div class="text_sub">if(kakao)</div>
+              </div>
+              <div class="text_box">
+                <div class="text_head">서비스</div>
+                <div class="text_sub">커뮤니케이션</div>
+                <div class="text_sub">일상 편의</div>
+                <div class="text_sub">비즈니스</div>
+                <div class="text_sub">쇼핑</div>
+                <div class="text_sub">엔터테인먼트</div>
+                <div class="text_sub">소셜임팩트</div>
+              </div>
+            </div>
+
+            <div class="content_wrap swiper menu_Swiper">
+              <div class="swiper_wrap swiper-wrapper">
+                <div class="right_box right_box1 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu2_bg1.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu2_icon1.png" alt="" />
+                        </div>
+                        <div class="text_sub2">if(kakao)</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오를 이해하는, 5가지 키워드
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_1.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box2 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu2_bg2.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu2_icon1.png" alt="" />
+                        </div>
+                        <div class="text_sub2">카카오테크</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오의 AI 모델, Kanana Model
+                        </div>
+                        <div class="text_sub">Family를 소개합니다</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_2.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box3 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu2_bg3.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu2_icon2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">커뮤니케이션</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">사람과 세상을 향한</div>
+                        <div class="text_sub">모든 연결의 시작, 카카오톡</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_3.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box4 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu2_bg4.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu2_icon2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">커뮤니케이션</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          모두의 카톡을 더 가깝고 안전하게,
+                        </div>
+                        <div class="text_sub">카톡설명서</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_4.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          id="tab3"
+          class="sub_menu_box sub_menu_box_promise swiper menu_Swiper"
+        >
+          <div class="sub_menu swiper-wrapper">
+            <div class="left_box">
+              <div class="text_box">
+                <div class="text_sub">ESG 보고서</div>
+                <div class="text_sub">프로젝트 단골</div>
+                <div class="text_sub">액티브그린</div>
+                <div class="text_sub">디지털 책임</div>
+                <div class="text_sub">사회경제적 가치</div>
+              </div>
+            </div>
+            <div class="content_wrap swiper menu_Swiper">
+              <div class="swiper_wrap swiper-wrapper">
+                <div class="right_box right_box1 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu3_bg1.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu3_icon1.png" alt="" />
+                        </div>
+                        <div class="text_sub2">ESG 보고서</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          모두의 지속가능한 미래를 위한
+                        </div>
+                        <div class="text_sub">카카오의 약속과 책임</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_1.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box2 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu3_bg2.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu3_icon2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">프로젝트 단골</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">더 많은 단골을 만나는게</div>
+                        <div class="text_sub">
+                          사장님에겐 가장 큰 힘이 되니깐
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_2.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box3 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu3_bg3.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu3_icon3.png" alt="" />
+                        </div>
+                        <div class="text_sub2">액티브그린</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오와 이용자가 함께 만들어가는
+                        </div>
+                        <div class="text_sub">지속가능한 지구</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_3.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box4 swiper-slide">
+                  <div class="card_box">
+                    <div class="image_box">
+                      <img src="./photo/sub_menu3_bg4.webp" alt="" />
+                    </div>
+                    <div class="text_box">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sub_menu3_icon4.png" alt="" />
+                        </div>
+                        <div class="text_sub2">디지털 책임</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">더 나은 디지털 세상을 향한</div>
+                        <div class="text_sub">카카오의 원칙과 생각들</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_4.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="tab4" class="sub_menu_box sub_menu_box_news">
+          <div class="sub_menu">
+            <div class="left_box">
+              <div class="text_box">
+                <div class="text_head">뉴스</div>
+                <div class="text_sub">보도자료</div>
+                <div class="text_sub">미디어자료</div>
+              </div>
+
+              <div class="text_box">
+                <div class="text_head">카카오나우</div>
+                <div class="text_sub">카카오이야기</div>
+                <div class="text_sub">그룹사이야기</div>
+              </div>
+            </div>
+
+            <div class="content_wrap swiper menu_Swiper">
+              <div class="swiper_wrap swiper-wrapper">
+                <div class="right_box right_box1 swiper-slide">
+                  <div class="card_box">
+                    <div class="text_box text_box1">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          강 위에서도 실시간 위치 확인...
+                        </div>
+                        <div class="text_sub">
+                          카카오맵, 초정밀 한강버스 정보 제공
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="text_box text_box2">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오, 국가 균형 성장 위해 500억 원
+                        </div>
+                        <div class="text_sub">규모 AI 지역 거점 조성</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_1.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box2 swiper-slide">
+                  <div class="card_box">
+                    <div class="text_box text_box1">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          브런치 10주년, 작가 9만 5천여명 돌파...
+                        </div>
+                        <div class="text_sub"><작가의 꿈> 팝업 전시 진행</div>
+                      </div>
+                    </div>
+
+                    <div class="text_box text_box2">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오, 카카오톡 개편 캠페인 티저 영상
+                        </div>
+                        <div class="text_sub">공개!</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_2.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box3 swiper-slide">
+                  <div class="card_box">
+                    <div class="text_box text_box1">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오,’카카오비즈니스 사장님 커뮤니티’
+                        </div>
+                        <div class="text_sub">3기 모집</div>
+                      </div>
+                    </div>
+
+                    <div class="text_box text_box2">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          추석선물은 톡딜·선물하기·카쇼라에서
+                        </div>
+                        <div class="text_sub">
+                          카카오쇼핑,한가위 프로모션 진행
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_3.svg" alt="" />
+                  </div>
+                </div>
+                <div class="right_box right_box4 swiper-slide">
+                  <div class="card_box">
+                    <div class="text_box text_box1">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오,’비즈니스 임팩트 리포트 2025’
+                        </div>
+                        <div class="text_sub">
+                          발간...산업 생태계 기여 성과 공개
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="text_box text_box2">
+                      <div class="text1">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                      </div>
+                      <div class="text2">
+                        <div class="text_sub">
+                          카카오, ‘카카오프렌즈 X T1’ 협업 굿즈
+                        </div>
+                        <div class="text_sub">출시</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_box">
+                    <img src="./photo/page4_4.svg" alt="" />
+                  </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="banner_box">
+        <div class="container">
+          <div class="banner_wrap">
+            <div class="banner_main_box">
+              <div class="text_wrap">
+                <div class="text_box text_box1">
+                  <div class="text text1">카카오그룹 신입크루 공채</div>
+                  <div class="text text2">2025.9.8 - 9.28</div>
+                </div>
+                <div class="text_box text_box2">
+                  <div class="text">
+                    자세히 보기
+                    <svg
+                      viewBox="0 0 62 62"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="31" cy="31" r="31" fill="#202020" />
+                      <path
+                        d="M39.6573 32.2091L40.3645 32.9162C40.755 32.5257 40.755 31.8925 40.3645 31.502L39.6573 32.2091ZM32.9502 37.502C32.5597 37.8925 32.5597 38.5257 32.9502 38.9162C33.3408 39.3067 33.9739 39.3067 34.3645 38.9162L33.6574 38.2091L32.9502 37.502ZM34.3645 25.502C33.9739 25.1115 33.3408 25.1115 32.9502 25.502C32.5597 25.8925 32.5597 26.5257 32.9502 26.9162L33.6574 26.2091L34.3645 25.502ZM39.6573 32.2091L38.9502 31.502L32.9502 37.502L33.6574 38.2091L34.3645 38.9162L40.3645 32.9162L39.6573 32.2091ZM39.6573 32.2091L40.3645 31.502L34.3645 25.502L33.6574 26.2091L32.9502 26.9162L38.9502 32.9162L39.6573 32.2091ZM23.6574 32.2091V33.2091H31.6574V32.2091V31.2091H23.6574V32.2091ZM31.6574 32.2091V33.2091H39.6573V32.2091V31.2091H31.6574V32.2091Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="banner_sub_box swiper banner_Swiper">
+              <div class="banner_sub1">
+                <div class="text_box">
+                  <div class="text">사람을 이해하는 기술로</div>
+                  <div class="text">필요한 미래를 더 가깝게</div>
+                </div>
+              </div>
+              <div class="banner_sub2 swiper-wrapper">
+                <div class="slide1 swiper-slide">
+                  <div class="text_box">
+                    <div class="text_box1">
+                      <div class="text">카카오의 기술</div>
+                    </div>
+                    <div class="text_box2">
+                      <div class="text">AI 서비스를</div>
+                      <div class="text">내 일상 속으로</div>
+                    </div>
+                    <div class="text_box3">
+                      <div class="text">#AI</div>
+                      <div class="text">#오픈AI</div>
+                      <div class="text">#전략적제휴</div>
+                    </div>
+                  </div>
+                  <div class="page_wrap">
+                    <div class="page">
+                      <img src="./photo/page2_1.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="slide2 swiper-slide">
+                  <div class="text_box">
+                    <div class="text_box1">
+                      <div class="text">카톡설명서</div>
+                    </div>
+                    <div class="text_box2">
+                      <div class="text">모두의 카톡을</div>
+                      <div class="text">더 가깝고 안전하게</div>
+                    </div>
+                    <div class="text_box3">
+                      <div class="text">#업데이트소식</div>
+                      <div class="text">#톡활용팁</div>
+                    </div>
+                  </div>
+                  <div class="page_wrap">
+                    <div class="page">
+                      <img src="./photo/page2_2.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="banner_sub3">
+                <div class="text_box">
+                  <div class="download_icon">
+                    <img src="./photo/kakao_icon.svg" alt="" />
+                  </div>
+                  <div class="text">카카오톡 다운로드</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="maincontainer">
+        <div class="sec_1">
+          <div class="container">
+            <div class="header_box">
+              <div class="header_text">
+                <div class="header_logo">
+                  <img src="./photo/sec_1_header.gif" alt="" />
+                </div>
+
+                카카오와 카카오 그룹이 축적해 온 이야기들
+              </div>
+              <div class="play_btn">
+                <div class="header_play">
+                  <svg
+                    viewBox="0 0 48 48"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="24" cy="24" r="24" fill="#202020" />
+                    <path d="M20 33V15L34 24L20 33Z" fill="white" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="card_grid_box swiper-wrapper">
+              <div class="card_box card_box1 swiper-slide">
+                <div class="image_box">
+                  <img src="./photo/sec_1_card1.webp" alt="" />
+                </div>
+                <div class="text_box">
+                  <div class="text1-2_wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title1.png" alt="" />
+                        </div>
+                        <div class="text_sub2">ESG</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">도로 위 히어로즈</div>
+                  </div>
+
+                  <div class="text3">
+                    <div class="text_sub">#카카오모빌리티</div>
+                    <div class="text_sub">#파트너상생</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card_box card_box2 swiper-slide">
+                <div class="text_box">
+                  <div class="text1-2_wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">ESG</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">
+                      <div class="text_sub">카카오가 꿈꾸는</div>
+                      <div class="text_sub">지속가능한 미래</div>
+                    </div>
+                  </div>
+                  <div class="text3">
+                    <div class="text_sub">#ESG</div>
+                    <div class="text_sub">#ESG보고서</div>
+                    <div class="text_sub">#약속과책임</div>
+                    <div class="text_sub">#카카오</div>
+                  </div>
+                </div>
+                <div class="image_box">
+                  <img src="./photo/sec_1_card2.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card_box card_box3 swiper-slide">
+                <div class="image_box">
+                  <img src="./photo/sec_1_card3.png" alt="" />
+                </div>
+                <div class="text_box">
+                  <div class="text1-2_wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">서비스</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">
+                      <div class="text_sub">진화에 누구보다</div>
+                      <div class="text_sub">진심인 편</div>
+                    </div>
+                  </div>
+                  <div class="text3">
+                    <div class="text_sub">#조승연의탐구생활</div>
+                    <div class="text_sub">#카카오톡</div>
+                    <div class="text_sub">#카톡이지</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card_box card_box4 swiper-slide">
+                <div class="text_box">
+                  <div class="text1-3wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title3.png" alt="" />
+                        </div>
+                        <div class="text_sub2">뚝딱뚝딱 성장기</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">
+                      <div class="text_sub">지역 정보 매체에서</div>
+                      <div class="text_sub">위치 기반 상호작용 플랫폼으로</div>
+                    </div>
+                    <div class="text3">
+                      <div class="text_sub">카카오맵에서 일어난</div>
+                      <div class="text_sub">24년 간의 업데이트 이야기</div>
+                    </div>
+                  </div>
+                  <div class="text4">
+                    <div class="text_sub">#지도플랫폼</div>
+                    <div class="text_sub">#카카오맵</div>
+                    <div class="text_sub">#트렌드랭킹</div>
+                  </div>
+                </div>
+
+                <div class="image_box">
+                  <img src="./photo/sec_1_card4.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card_box card_box5 swiper-slide">
+                <div class="image_box">
+                  <img src="./photo/sec_1_card5.png" alt="" />
+                </div>
+                <div class="text_box">
+                  <div class="text1-2_wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">서비스</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">
+                      <div class="text_sub">100명에게</div>
+                      <div class="text_sub">물어봤습니다</div>
+                    </div>
+                  </div>
+                  <div class="text3">
+                    <div class="text_sub">#로드트립</div>
+                    <div class="text_sub">#카카오톡</div>
+                    <div class="text_sub">#카톡이지</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card_box card_box6 swiper-slide">
+                <div class="text_box">
+                  <div class="text1-2_wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">서비스</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">
+                      <div class="text_sub">접근성</div>
+                      <div class="text_sub">어디까지 고민해 봤나요?</div>
+                    </div>
+                  </div>
+                  <div class="text3">
+                    <div class="text_sub">#디지털접근성</div>
+                    <div class="text_sub">#카카오톡</div>
+                    <div class="text_sub">#카톡이지</div>
+                  </div>
+                </div>
+                <div class="image_box">
+                  <img src="./photo/sec_1_card6.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card_box card_box7 swiper-slide">
+                <div class="text_box">
+                  <div class="text1-3_wrap">
+                    <div class="text1">
+                      <div class="text_sub1-2_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_1_card_title2.png" alt="" />
+                        </div>
+                        <div class="text_sub2">ESG</div>
+                      </div>
+                      <div class="text_sub3">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text2">
+                      <div class="text_sub">왕초보 사장님들의</div>
+                      <div class="text_sub">단골 만들기 비법</div>
+                    </div>
+                    <div class="text3">
+                      <div class="text_sub">마케팅이 어려웠던 사장님이</div>
+                      <div class="text_sub">매출 500% 올린 비결</div>
+                    </div>
+                  </div>
+                  <div class="text4">
+                    <div class="text_sub">#소상공인지원</div>
+                    <div class="text_sub">#카카오상생활동</div>
+                    <div class="text_sub">#카카오톡채널</div>
+                  </div>
+                </div>
+                <div class="image_box">
+                  <img src="./photo/sec_1_card7.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_2">
+          <div class="container">
+            <div class="header_box">
+              <div class="header_logo">
+                <img src="./photo/sec_2_header.gif" alt="" />
+              </div>
+              <div class="header_text">더 나은 세상을 만드는 카카오 서비스</div>
+            </div>
+
+            <div class="card_grid_box">
+              <div class="card1-3_wrap">
+                <div class="card_box">
+                  커뮤니케이션
+                  <ul class="app_box">
+                    <li><img src="./photo/sec_2_icon1.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon2.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon3.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon.png" alt="" /></li>
+                  </ul>
+                </div>
+                <div class="card_box">
+                  일상편의
+                  <ul class="app_box">
+                    <li><img src="./photo/sec_2_icon4.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon5.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon6.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon.png" alt="" /></li>
+                  </ul>
+                </div>
+                <div class="card_box">
+                  엔터테인먼트
+                  <ul class="app_box">
+                    <li><img src="./photo/sec_2_icon7.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon8.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon9.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon.png" alt="" /></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card1-3_wrap">
+                <div class="card_box">
+                  비즈니스
+                  <ul class="app_box">
+                    <li><img src="./photo/sec_2_icon10.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon11.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon12.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon.png" alt="" /></li>
+                  </ul>
+                </div>
+                <div class="card_box">
+                  쇼핑
+                  <ul class="app_box">
+                    <li><img src="./photo/sec_2_icon13.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon14.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon15.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon.png" alt="" /></li>
+                  </ul>
+                </div>
+                <div class="card_box">
+                  소셜임팩트
+                  <ul class="app_box">
+                    <li><img src="./photo/sec_2_icon16.png" alt="" /></li>
+                    <li><img src="./photo/sec_2_icon.png" alt="" /></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="more_btn_wrap">
+              <div class="more_btn">
+                서비스 전체보기
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#202020" />
+                  <path
+                    d="M16.9211 12.4682L17.3336 12.8807C17.5614 12.6529 17.5614 12.2836 17.3336 12.0558L16.9211 12.4682ZM13.0087 15.5558C12.7809 15.7836 12.7809 16.1529 13.0087 16.3807C13.2365 16.6085 13.6058 16.6085 13.8336 16.3807L13.4211 15.9682L13.0087 15.5558ZM13.8336 8.55577C13.6058 8.32796 13.2365 8.32796 13.0087 8.55577C12.7809 8.78357 12.7809 9.15292 13.0087 9.38073L13.4211 8.96825L13.8336 8.55577ZM16.9211 12.4682L16.5087 12.0558L13.0087 15.5558L13.4211 15.9682L13.8336 16.3807L17.3336 12.8807L16.9211 12.4682ZM16.9211 12.4682L17.3336 12.0558L13.8336 8.55577L13.4211 8.96825L13.0087 9.38073L16.5087 12.8807L16.9211 12.4682ZM7.58782 12.4682V13.0516H12.2545V12.4682V11.8849H7.58782V12.4682ZM12.2545 12.4682V13.0516H16.9211V12.4682V11.8849H12.2545V12.4682Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_3">
+          <div class="container">
+            <div class="header_box">
+              <div class="header_logo">
+                <img src="./photo/sec_3_header.gif" alt="" />
+              </div>
+
+              <div class="header_text">오늘의 뉴스</div>
+            </div>
+
+            <div class="card_grid_box">
+              <div class="card_box card_box1 swiper cardbox1_Swiper">
+                <div class="card_wrap swiper-wrapper">
+                  <div class="card card1 swiper-slide">
+                    <div class="text_box">
+                      <div class="text1-2_wrap">
+                        <div class="text1">
+                          <div class="text_sub1-3_wrap">
+                            <div class="text_sub1">
+                              <img src="./photo/sec_3_icon.png" alt="" />
+                            </div>
+                            <div class="text_sub2">보도자료</div>
+                            <div class="text_sub3">2025.09.17</div>
+                          </div>
+                          <div class="text_sub4">
+                            <svg
+                              viewBox="0 0 4 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <circle cx="2" cy="2" r="2" fill="#333333" />
+                              <circle cx="2" cy="10" r="2" fill="#333333" />
+                              <circle cx="2" cy="18" r="2" fill="#333333" />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="text2">
+                          카카오, ‘카카오비즈니스사장님 커뮤니티’ 3기 모집
+                        </div>
+                      </div>
+                      <div class="text3">
+                        <div class="text_sub">#카카오비즈니스</div>
+                        <div class="text_sub">#카카오비즈니스세미나</div>
+                        <div class="text_sub text_sub_over">
+                          #사장님커뮤니티
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="image_box">
+                      <img src="./photo/sec_3_card1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card card2 swiper-slide">
+                    <div class="text_box">
+                      <div class="text1-2_wrap">
+                        <div class="text1">
+                          <div class="text_sub1-3_wrap">
+                            <div class="text_sub1">
+                              <img src="./photo/sec_3_icon.png" alt="" />
+                            </div>
+                            <div class="text_sub2">보도자료</div>
+                            <div class="text_sub3">2025.09.17</div>
+                          </div>
+                          <div class="text_sub4">
+                            <svg
+                              viewBox="0 0 4 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <circle cx="2" cy="2" r="2" fill="#333333" />
+                              <circle cx="2" cy="10" r="2" fill="#333333" />
+                              <circle cx="2" cy="18" r="2" fill="#333333" />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="text2">
+                          카카오, 카카오톡 개편 캠페인 티저 영상 공개!
+                        </div>
+                      </div>
+                      <div class="text3">
+                        <div class="text_sub">#카카오톡</div>
+                        <div class="text_sub">#카카오톡 개편</div>
+                        <div class="text_sub">#캠페인티저</div>
+                        <div class="text_sub text_sub_over">
+                          #쓰는이에집중쓰기좋게맞춤
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="image_box">
+                      <img src="./photo/sec_3_card2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card card3 swiper-slide">
+                    <div class="text_box">
+                      <div class="text1-2_wrap">
+                        <div class="text1">
+                          <div class="text_sub1-3_wrap">
+                            <div class="text_sub1">
+                              <img src="./photo/sec_3_icon.png" alt="" />
+                            </div>
+                            <div class="text_sub2">보도자료</div>
+                            <div class="text_sub3">2025.09.15</div>
+                          </div>
+                          <div class="text_sub4">
+                            <svg
+                              viewBox="0 0 4 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <circle cx="2" cy="2" r="2" fill="#333333" />
+                              <circle cx="2" cy="10" r="2" fill="#333333" />
+                              <circle cx="2" cy="18" r="2" fill="#333333" />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="text2">
+                          추석선물은 톡딜·선물하기·카쇼라에서 카카오쇼핑,한가위
+                          프로모션 진행
+                        </div>
+                      </div>
+                      <div class="text3">
+                        <div class="text_sub">#카카오쇼핑</div>
+                        <div class="text_sub">#카카오톡 선물하기</div>
+                        <div class="text_sub">#카카오톡 딜</div>
+                        <div class="text_sub text_sub_over">
+                          #카카오쇼핑라이브
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="image_box">
+                      <img src="./photo/sec_3_card3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card_box card_box2 swiper cardbox2_Swiper">
+                <div class="card_wrap swiper-wrapper">
+                  <div class="card card1 swiper-slide">
+                    <div class="text_box text_box1">
+                      <div class="text_sub1-3_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                        <div class="text_sub3">2025.09.11</div>
+                      </div>
+                      <div class="text_sub4">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text_box text_box2">
+                      카카오, ‘비즈니스 임팩트 리포트 2025’ 발간...산업 생태계
+                      기여 성과 공개
+                    </div>
+                  </div>
+                  <div class="card card2 swiper-slide">
+                    <div class="text_box text_box1">
+                      <div class="text_sub1-3_wrap">
+                        <div class="text_sub1">
+                          <img src="./photo/sec_3_icon.png" alt="" />
+                        </div>
+                        <div class="text_sub2">보도자료</div>
+                        <div class="text_sub3">2025.09.10</div>
+                      </div>
+                      <div class="text_sub4">
+                        <svg
+                          viewBox="0 0 4 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="2" cy="2" r="2" fill="#333333" />
+                          <circle cx="2" cy="10" r="2" fill="#333333" />
+                          <circle cx="2" cy="18" r="2" fill="#333333" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="text_box text_box2">
+                      카카오, ‘카카오프렌즈 X T1’ 협업 굿즈 출시
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="card_box card_box3">
+                <div class="card card1">
+                  보도자료
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="12" cy="12" r="12" fill="#202020" />
+                    <path
+                      d="M16.9211 12.4682L17.3336 12.8807C17.5614 12.6529 17.5614 12.2836 17.3336 12.0558L16.9211 12.4682ZM13.0087 15.5558C12.7809 15.7836 12.7809 16.1529 13.0087 16.3807C13.2365 16.6085 13.6058 16.6085 13.8336 16.3807L13.4211 15.9682L13.0087 15.5558ZM13.8336 8.55577C13.6058 8.32796 13.2365 8.32796 13.0087 8.55577C12.7809 8.78357 12.7809 9.15292 13.0087 9.38073L13.4211 8.96825L13.8336 8.55577ZM16.9211 12.4682L16.5087 12.0558L13.0087 15.5558L13.4211 15.9682L13.8336 16.3807L17.3336 12.8807L16.9211 12.4682ZM16.9211 12.4682L17.3336 12.0558L13.8336 8.55577L13.4211 8.96825L13.0087 9.38073L16.5087 12.8807L16.9211 12.4682ZM7.58782 12.4682V13.0516H12.2545V12.4682V11.8849H7.58782V12.4682ZM12.2545 12.4682V13.0516H16.9211V12.4682V11.8849H12.2545V12.4682Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="card card2">
+                  미디어자료
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="12" cy="12" r="12" fill="#202020" />
+                    <path
+                      d="M16.9211 12.4682L17.3336 12.8807C17.5614 12.6529 17.5614 12.2836 17.3336 12.0558L16.9211 12.4682ZM13.0087 15.5558C12.7809 15.7836 12.7809 16.1529 13.0087 16.3807C13.2365 16.6085 13.6058 16.6085 13.8336 16.3807L13.4211 15.9682L13.0087 15.5558ZM13.8336 8.55577C13.6058 8.32796 13.2365 8.32796 13.0087 8.55577C12.7809 8.78357 12.7809 9.15292 13.0087 9.38073L13.4211 8.96825L13.8336 8.55577ZM16.9211 12.4682L16.5087 12.0558L13.0087 15.5558L13.4211 15.9682L13.8336 16.3807L17.3336 12.8807L16.9211 12.4682ZM16.9211 12.4682L17.3336 12.0558L13.8336 8.55577L13.4211 8.96825L13.0087 9.38073L16.5087 12.8807L16.9211 12.4682ZM7.58782 12.4682V13.0516H12.2545V12.4682V11.8849H7.58782V12.4682ZM12.2545 12.4682V13.0516H16.9211V12.4682V11.8849H12.2545V12.4682Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_4">
+          <div class="container">
+            <div class="header_box">
+              <div class="header_logo">
+                <img src="./photo/sec_4_header.gif" alt="" />
+              </div>
+              <div class="header_text">약속과 책임</div>
+            </div>
+
+            <div class="card_grid_box">
+              <div class="card_box card_box1">
+                <div class="card card1">ESG</div>
+                <div class="card card2">
+                  <img src="./photo/sec_4_card1.gif" alt="" />
+                </div>
+                <div class="card card3">
+                  모두의 지속가능한 미래를 위한 카카오의 약속과 책임
+                </div>
+                <div class="next_btn">
+                  <svg
+                    viewBox="0 0 62 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="31" cy="31" r="31" fill="#202020" />
+                    <path
+                      d="M39.6573 32.2091L40.3645 32.9162C40.755 32.5257 40.755 31.8925 40.3645 31.502L39.6573 32.2091ZM32.9502 37.502C32.5597 37.8925 32.5597 38.5257 32.9502 38.9162C33.3408 39.3067 33.9739 39.3067 34.3645 38.9162L33.6574 38.2091L32.9502 37.502ZM34.3645 25.502C33.9739 25.1115 33.3408 25.1115 32.9502 25.502C32.5597 25.8925 32.5597 26.5257 32.9502 26.9162L33.6574 26.2091L34.3645 25.502ZM39.6573 32.2091L38.9502 31.502L32.9502 37.502L33.6574 38.2091L34.3645 38.9162L40.3645 32.9162L39.6573 32.2091ZM39.6573 32.2091L40.3645 31.502L34.3645 25.502L33.6574 26.2091L32.9502 26.9162L38.9502 32.9162L39.6573 32.2091ZM23.6574 32.2091V33.2091H31.6574V32.2091V31.2091H23.6574V32.2091ZM31.6574 32.2091V33.2091H39.6573V32.2091V31.2091H31.6574V32.2091Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="card_box card_box2">
+                <div class="card card1">액티브그린</div>
+                <div class="card card2">
+                  <img src="./photo/sec_4_card2.gif" alt="" />
+                </div>
+                <div class="card card3">
+                  카카오를 이용하는 만큼 우리들의 지구도 더 풍요로울 수 있도록
+                </div>
+                <div class="next_btn">
+                  <svg
+                    viewBox="0 0 62 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="31" cy="31" r="31" fill="#202020" />
+                    <path
+                      d="M39.6573 32.2091L40.3645 32.9162C40.755 32.5257 40.755 31.8925 40.3645 31.502L39.6573 32.2091ZM32.9502 37.502C32.5597 37.8925 32.5597 38.5257 32.9502 38.9162C33.3408 39.3067 33.9739 39.3067 34.3645 38.9162L33.6574 38.2091L32.9502 37.502ZM34.3645 25.502C33.9739 25.1115 33.3408 25.1115 32.9502 25.502C32.5597 25.8925 32.5597 26.5257 32.9502 26.9162L33.6574 26.2091L34.3645 25.502ZM39.6573 32.2091L38.9502 31.502L32.9502 37.502L33.6574 38.2091L34.3645 38.9162L40.3645 32.9162L39.6573 32.2091ZM39.6573 32.2091L40.3645 31.502L34.3645 25.502L33.6574 26.2091L32.9502 26.9162L38.9502 32.9162L39.6573 32.2091ZM23.6574 32.2091V33.2091H31.6574V32.2091V31.2091H23.6574V32.2091ZM31.6574 32.2091V33.2091H39.6573V32.2091V31.2091H31.6574V32.2091Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="card_box card_box3">
+                <div class="card card1">정책매거진</div>
+                <div class="card card2">
+                  <img src="./photo/sec_4_card3.gif" alt="" />
+                </div>
+                <div class="card card3">
+                  기술과 사람이 함께 만드는 건강한 디지털 문화를 고민합니다
+                </div>
+                <div class="next_btn">
+                  <svg
+                    viewBox="0 0 62 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="31" cy="31" r="31" fill="#202020" />
+                    <path
+                      d="M39.6573 32.2091L40.3645 32.9162C40.755 32.5257 40.755 31.8925 40.3645 31.502L39.6573 32.2091ZM32.9502 37.502C32.5597 37.8925 32.5597 38.5257 32.9502 38.9162C33.3408 39.3067 33.9739 39.3067 34.3645 38.9162L33.6574 38.2091L32.9502 37.502ZM34.3645 25.502C33.9739 25.1115 33.3408 25.1115 32.9502 25.502C32.5597 25.8925 32.5597 26.5257 32.9502 26.9162L33.6574 26.2091L34.3645 25.502ZM39.6573 32.2091L38.9502 31.502L32.9502 37.502L33.6574 38.2091L34.3645 38.9162L40.3645 32.9162L39.6573 32.2091ZM39.6573 32.2091L40.3645 31.502L34.3645 25.502L33.6574 26.2091L32.9502 26.9162L38.9502 32.9162L39.6573 32.2091ZM23.6574 32.2091V33.2091H31.6574V32.2091V31.2091H23.6574V32.2091ZM31.6574 32.2091V33.2091H39.6573V32.2091V31.2091H31.6574V32.2091Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_5">
+          <div class="container">
+            <div class="header_box">
+              <div class="header_logo">
+                <img src="./photo/sec_5_header.gif" alt="" />
+              </div>
+
+              <div class="header_text">무엇을 도와드릴까요?</div>
+            </div>
+
+            <div class="top_card_box">
+              <div class="card_box card_box1">
+                <div class="card">
+                  <div class="text_box">
+                    <div class="text1">
+                      <div class="text1-1">카카오</div>
+                      <div class="text1-1">고객센터</div>
+                    </div>
+                    <div class="text2">
+                      <div class="go_wrap">바로가기</div>
+
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="12" cy="12" r="12" fill="#202020" />
+                        <g clip-path="url(#clip0_497_93)">
+                          <path
+                            d="M15.3137 9.17196L15.8137 9.17196C15.8137 8.89582 15.5898 8.67196 15.3137 8.67196L15.3137 9.17196ZM14.8137 13.4146C14.8137 13.6907 15.0376 13.9146 15.3137 13.9146C15.5898 13.9146 15.8137 13.6907 15.8137 13.4146L15.3137 13.4146L14.8137 13.4146ZM11.0711 8.67196C10.7949 8.67196 10.5711 8.89582 10.5711 9.17196C10.5711 9.4481 10.7949 9.67196 11.0711 9.67196L11.0711 9.17196L11.0711 8.67196ZM12.4853 12.0004L12.1317 11.6468L12.131 11.6476L12.4853 12.0004ZM15.3137 9.17196L14.8137 9.17196L14.8137 13.4146L15.3137 13.4146L15.8137 13.4146L15.8137 9.17196L15.3137 9.17196ZM15.3137 9.17196L15.3137 8.67196L11.0711 8.67196L11.0711 9.17196L11.0711 9.67196L15.3137 9.67196L15.3137 9.17196ZM9 15.5004L9.3543 15.8532L12.8396 12.3532L12.4853 12.0004L12.131 11.6476L8.6457 15.1475L9 15.5004ZM12.4853 12.0004L12.8388 12.3539L15.6673 9.52552L15.3137 9.17196L14.9601 8.81841L12.1317 11.6468L12.4853 12.0004Z"
+                            fill="white"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_497_93">
+                            <rect
+                              width="12"
+                              height="12"
+                              fill="white"
+                              transform="translate(12.4854 3.51479) rotate(45)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="image_box">
+                    <img src="./photo/sec_5_icon1.webp" alt="" />
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="text_box">
+                    <div class="text1">
+                      <div class="text1-1">다음</div>
+                      <div class="text1-1">고객센터</div>
+                    </div>
+                    <div class="text2">
+                      <div class="go_wrap">바로가기</div>
+
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="12" cy="12" r="12" fill="#202020" />
+                        <g clip-path="url(#clip0_497_93)">
+                          <path
+                            d="M15.3137 9.17196L15.8137 9.17196C15.8137 8.89582 15.5898 8.67196 15.3137 8.67196L15.3137 9.17196ZM14.8137 13.4146C14.8137 13.6907 15.0376 13.9146 15.3137 13.9146C15.5898 13.9146 15.8137 13.6907 15.8137 13.4146L15.3137 13.4146L14.8137 13.4146ZM11.0711 8.67196C10.7949 8.67196 10.5711 8.89582 10.5711 9.17196C10.5711 9.4481 10.7949 9.67196 11.0711 9.67196L11.0711 9.17196L11.0711 8.67196ZM12.4853 12.0004L12.1317 11.6468L12.131 11.6476L12.4853 12.0004ZM15.3137 9.17196L14.8137 9.17196L14.8137 13.4146L15.3137 13.4146L15.8137 13.4146L15.8137 9.17196L15.3137 9.17196ZM15.3137 9.17196L15.3137 8.67196L11.0711 8.67196L11.0711 9.17196L11.0711 9.67196L15.3137 9.67196L15.3137 9.17196ZM9 15.5004L9.3543 15.8532L12.8396 12.3532L12.4853 12.0004L12.131 11.6476L8.6457 15.1475L9 15.5004ZM12.4853 12.0004L12.8388 12.3539L15.6673 9.52552L15.3137 9.17196L14.9601 8.81841L12.1317 11.6468L12.4853 12.0004Z"
+                            fill="white"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_497_93">
+                            <rect
+                              width="12"
+                              height="12"
+                              fill="white"
+                              transform="translate(12.4854 3.51479) rotate(45)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="image_box">
+                    <img src="./photo/sec_5_icon2.webp" alt="" />
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="text_box">
+                    <div class="text1">
+                      <div class="text1-1">커머스</div>
+                      <div class="text1-1">고객센터</div>
+                    </div>
+                    <div class="text2">
+                      <div class="go_wrap">바로가기</div>
+
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="12" cy="12" r="12" fill="#202020" />
+                        <g clip-path="url(#clip0_497_93)">
+                          <path
+                            d="M15.3137 9.17196L15.8137 9.17196C15.8137 8.89582 15.5898 8.67196 15.3137 8.67196L15.3137 9.17196ZM14.8137 13.4146C14.8137 13.6907 15.0376 13.9146 15.3137 13.9146C15.5898 13.9146 15.8137 13.6907 15.8137 13.4146L15.3137 13.4146L14.8137 13.4146ZM11.0711 8.67196C10.7949 8.67196 10.5711 8.89582 10.5711 9.17196C10.5711 9.4481 10.7949 9.67196 11.0711 9.67196L11.0711 9.17196L11.0711 8.67196ZM12.4853 12.0004L12.1317 11.6468L12.131 11.6476L12.4853 12.0004ZM15.3137 9.17196L14.8137 9.17196L14.8137 13.4146L15.3137 13.4146L15.8137 13.4146L15.8137 9.17196L15.3137 9.17196ZM15.3137 9.17196L15.3137 8.67196L11.0711 8.67196L11.0711 9.17196L11.0711 9.67196L15.3137 9.67196L15.3137 9.17196ZM9 15.5004L9.3543 15.8532L12.8396 12.3532L12.4853 12.0004L12.131 11.6476L8.6457 15.1475L9 15.5004ZM12.4853 12.0004L12.8388 12.3539L15.6673 9.52552L15.3137 9.17196L14.9601 8.81841L12.1317 11.6468L12.4853 12.0004Z"
+                            fill="white"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_497_93">
+                            <rect
+                              width="12"
+                              height="12"
+                              fill="white"
+                              transform="translate(12.4854 3.51479) rotate(45)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="image_box">
+                    <img src="./photo/sec_5_icon3.webp" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="card_box card_box2">
+                <div class="text_box">
+                  <div class="text1">카카오의 다양한 소식을 구독하세요!</div>
+                  <div class="text2">공식 소셜 미디어 바로가기</div>
+                  <ul class="icon_box">
+                    <li class="icon">
+                      <img src="./photo/sec_5_card1_icon1.png" alt="" />
+                    </li>
+                    <li class="icon">
+                      <img src="./photo/sec_5_card1_icon2.png" alt="" />
+                    </li>
+                    <li class="icon">
+                      <img src="./photo/sec_5_card1_icon3.png" alt="" />
+                    </li>
+                    <li class="icon">
+                      <img src="./photo/sec_5_card1_icon4.png" alt="" />
+                    </li>
+                    <li class="icon">
+                      <img src="./photo/sec_5_card1_icon5.png" alt="" />
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="image_box">
+                  <img src="./photo/sec_5_card1.png" alt="" />
+                </div>
+              </div>
+              <div class="card_box card_box3">
+                <div class="text_box">
+                  <div class="text1">
+                    세상만사에 관심이 많다면, 당신은 미미 카카오 크루
+                  </div>
+                  <div class="text2">
+                    <div class="text_wrap">
+                      영입소식
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="12" cy="12" r="12" fill="white" />
+                        <g clip-path="url(#clip0_497_87)">
+                          <path
+                            d="M15.3137 9.17196L15.8137 9.17196C15.8137 8.89582 15.5898 8.67196 15.3137 8.67196L15.3137 9.17196ZM14.8137 13.4146C14.8137 13.6907 15.0376 13.9146 15.3137 13.9146C15.5898 13.9146 15.8137 13.6907 15.8137 13.4146L15.3137 13.4146L14.8137 13.4146ZM11.0711 8.67196C10.7949 8.67196 10.5711 8.89582 10.5711 9.17196C10.5711 9.4481 10.7949 9.67196 11.0711 9.67196L11.0711 9.17196L11.0711 8.67196ZM12.4853 12.0004L12.1317 11.6468L12.131 11.6476L12.4853 12.0004ZM15.3137 9.17196L14.8137 9.17196L14.8137 13.4146L15.3137 13.4146L15.8137 13.4146L15.8137 9.17196L15.3137 9.17196ZM15.3137 9.17196L15.3137 8.67196L11.0711 8.67196L11.0711 9.17196L11.0711 9.67196L15.3137 9.67196L15.3137 9.17196ZM9 15.5004L9.3543 15.8532L12.8396 12.3532L12.4853 12.0004L12.131 11.6476L8.6457 15.1475L9 15.5004ZM12.4853 12.0004L12.8388 12.3539L15.6673 9.52552L15.3137 9.17196L14.9601 8.81841L12.1317 11.6468L12.4853 12.0004Z"
+                            fill="#202020"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_497_87">
+                            <rect
+                              width="12"
+                              height="12"
+                              fill="white"
+                              transform="translate(12.4854 3.51479) rotate(45)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <div class="image_box">
+                      <img src="./photo/sec_5_card2.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom_card_box">
+              <div class="card">
+                <div class="text_box">
+                  <div class="text1">투자정보</div>
+                  <div class="text2">
+                    <div class="go_wrap">바로가기</div>
+
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="12" cy="12" r="12" fill="#202020" />
+                      <g clip-path="url(#clip0_497_93)">
+                        <path
+                          d="M15.3137 9.17196L15.8137 9.17196C15.8137 8.89582 15.5898 8.67196 15.3137 8.67196L15.3137 9.17196ZM14.8137 13.4146C14.8137 13.6907 15.0376 13.9146 15.3137 13.9146C15.5898 13.9146 15.8137 13.6907 15.8137 13.4146L15.3137 13.4146L14.8137 13.4146ZM11.0711 8.67196C10.7949 8.67196 10.5711 8.89582 10.5711 9.17196C10.5711 9.4481 10.7949 9.67196 11.0711 9.67196L11.0711 9.17196L11.0711 8.67196ZM12.4853 12.0004L12.1317 11.6468L12.131 11.6476L12.4853 12.0004ZM15.3137 9.17196L14.8137 9.17196L14.8137 13.4146L15.3137 13.4146L15.8137 13.4146L15.8137 9.17196L15.3137 9.17196ZM15.3137 9.17196L15.3137 8.67196L11.0711 8.67196L11.0711 9.17196L11.0711 9.67196L15.3137 9.67196L15.3137 9.17196ZM9 15.5004L9.3543 15.8532L12.8396 12.3532L12.4853 12.0004L12.131 11.6476L8.6457 15.1475L9 15.5004ZM12.4853 12.0004L12.8388 12.3539L15.6673 9.52552L15.3137 9.17196L14.9601 8.81841L12.1317 11.6468L12.4853 12.0004Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_497_93">
+                          <rect
+                            width="12"
+                            height="12"
+                            fill="white"
+                            transform="translate(12.4854 3.51479) rotate(45)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="image_box">
+                  <img src="./photo/sec_5_icon4.png" alt="" />
+                </div>
+              </div>
+              <div class="card">
+                <div class="text_box">
+                  <div class="text1">
+                    데이터의 연결과 보호의 균형을 위한 카카오의 노력
+                  </div>
+                  <div class="text2">
+                    <div class="go_wrap">바로가기</div>
+
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="12" cy="12" r="12" fill="#202020" />
+                      <g clip-path="url(#clip0_497_93)">
+                        <path
+                          d="M15.3137 9.17196L15.8137 9.17196C15.8137 8.89582 15.5898 8.67196 15.3137 8.67196L15.3137 9.17196ZM14.8137 13.4146C14.8137 13.6907 15.0376 13.9146 15.3137 13.9146C15.5898 13.9146 15.8137 13.6907 15.8137 13.4146L15.3137 13.4146L14.8137 13.4146ZM11.0711 8.67196C10.7949 8.67196 10.5711 8.89582 10.5711 9.17196C10.5711 9.4481 10.7949 9.67196 11.0711 9.67196L11.0711 9.17196L11.0711 8.67196ZM12.4853 12.0004L12.1317 11.6468L12.131 11.6476L12.4853 12.0004ZM15.3137 9.17196L14.8137 9.17196L14.8137 13.4146L15.3137 13.4146L15.8137 13.4146L15.8137 9.17196L15.3137 9.17196ZM15.3137 9.17196L15.3137 8.67196L11.0711 8.67196L11.0711 9.17196L11.0711 9.67196L15.3137 9.67196L15.3137 9.17196ZM9 15.5004L9.3543 15.8532L12.8396 12.3532L12.4853 12.0004L12.131 11.6476L8.6457 15.1475L9 15.5004ZM12.4853 12.0004L12.8388 12.3539L15.6673 9.52552L15.3137 9.17196L14.9601 8.81841L12.1317 11.6468L12.4853 12.0004Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_497_93">
+                          <rect
+                            width="12"
+                            height="12"
+                            fill="white"
+                            transform="translate(12.4854 3.51479) rotate(45)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="image_box">
+                  <img src="./photo/sec_5_icon5.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="more_btn_wrap">
+              <div class="more_btn">
+                카카오 소식 모아보기
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#202020" />
+                  <path
+                    d="M16.9211 12.4682L17.3336 12.8807C17.5614 12.6529 17.5614 12.2836 17.3336 12.0558L16.9211 12.4682ZM13.0087 15.5558C12.7809 15.7836 12.7809 16.1529 13.0087 16.3807C13.2365 16.6085 13.6058 16.6085 13.8336 16.3807L13.4211 15.9682L13.0087 15.5558ZM13.8336 8.55577C13.6058 8.32796 13.2365 8.32796 13.0087 8.55577C12.7809 8.78357 12.7809 9.15292 13.0087 9.38073L13.4211 8.96825L13.8336 8.55577ZM16.9211 12.4682L16.5087 12.0558L13.0087 15.5558L13.4211 15.9682L13.8336 16.3807L17.3336 12.8807L16.9211 12.4682ZM16.9211 12.4682L17.3336 12.0558L13.8336 8.55577L13.4211 8.96825L13.0087 9.38073L16.5087 12.8807L16.9211 12.4682ZM7.58782 12.4682V13.0516H12.2545V12.4682V11.8849H7.58782V12.4682ZM12.2545 12.4682V13.0516H16.9211V12.4682V11.8849H12.2545V12.4682Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer_area">
+        <div class="container">
+          <div class="infor_box">
+            <div class="top_box">
+              <div class="infor_head_wrap">
+                <div class="infor_head">오늘의 카카오</div>
+                <ul class="infor_main_box">
+                  <li class="infor_sub">
+                    카카오톡 공식 다운로드
+                    <img src="./photo/arrow_left.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오톡 백업
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오 이모티콘샵
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오맵
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    지속가능성
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div class="infor_wrap">
+                <div class="infor_main">
+                  카카오 그룹의 서비스
+
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <ul class="infor_sub_box">
+                  <li class="infor_sub">커뮤니케이션</li>
+                  <li class="infor_sub">일상편의</li>
+                  <li class="infor_sub">비즈니스</li>
+                  <li class="infor_sub">쇼핑</li>
+                  <li class="infor_sub">엔터테인먼트</li>
+                  <li class="infor_sub">임팩트</li>
+                </ul>
+              </div>
+              <div class="infor_wrap">
+                <div class="infor_main">
+                  카카오 그룹
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <ul class="infor_sub_box">
+                  <li class="infor_sub">카카오</li>
+                  <li class="infor_sub">
+                    카카오페이
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오뱅크
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오모빌리티
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오스타일
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오엔터테인먼트
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    axz
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div class="infor_wrap infor_sub_wrap">
+                <ul class="infor_sub_box">
+                  <li class="infor_sub">
+                    카카오게임즈
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오픽코마
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오엔터프라이즈
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오헬스케어
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오벤처스
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오인베스트먼트
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    링키지랩
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div class="infor_wrap">
+                <div class="infor_main">
+                  IR
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <ul class="infor_sub_box">
+                  <li class="infor_sub">
+                    기업지배구조
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    주가정보
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    재무정보
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    IR행사
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    공시정보
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    공고
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div class="infor_wrap">
+                <div class="infor_main">
+                  계정 및 지원
+                  <img src="./photo/arrow_bottom.svg" alt="" />
+                </div>
+                <ul class="infor_sub_box">
+                  <li class="infor_sub">
+                    카카오계정
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오 프라이버시
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    카카오 고객센터
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    다음 고객센터
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    커머스 고객센터
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                  <li class="infor_sub">
+                    인재영입
+                    <img src="./photo/arrow_top.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom_box">
+              <div class="left_box">
+                <ul class="infor_box">
+                  <div class="infor_mobile">
+                    <li class="infor">
+                      이용약관
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor infor_main">
+                      위치정보 이용약관
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor infor_main">
+                      개인정보처리방침
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">
+                      운영정책 및 제안
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">
+                      청소년보호정책
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">
+                      접근성 안내
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                  </div>
+                  <div class="infor_mobile">
+                    <li class="infor">
+                      브랜드보호정책
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">
+                      권리침해신고안내
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">
+                      공지사항
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">
+                      사이버윤리실
+                      <img src="./photo/arrow_bottom.svg" alt="" />
+                    </li>
+                    <li class="infor">Contact Us</li>
+                  </div>
+                </ul>
+
+                <div class="right_box">
+                  관련사이트
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 7H14" stroke="#888888" stroke-width="2" />
+                    <path d="M7 14L7 0" stroke="#888888" stroke-width="2" />
+                  </svg>
+                </div>
+              </div>
+              <div class="copyright">© Kakao Corp. All rights reserved.</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".menu_Swiper", {
+        // spaceBetween: 30,
+        loop: true,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          // clickable: true,
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".banner_Swiper", {
+        slidesPerView: 1,
+        spaceBetween: 16,
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        loop: true,
+        autoplay: {
+          delay: 0,
+        },
+        speed: 10000,
+        spaceBetween: 16,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../fonts/AppleSDGothicNeo-Regular.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "KakaoBigSans";
+  src: url(../fonts/KakaoBigSans-Regular.woff);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "KakaoBigSans";
+  src: url(../fonts/KakaoBigSans-Bold.woff);
+  font-weight: 500;
+}
+
+/* ------------------------------- */
+* {
+  /* font-family: "AppleSDGothicNeo", sans-serif; */
+  font-family: "KakaoBigSans", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+svg,
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
