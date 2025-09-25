@@ -23,7 +23,7 @@
 ---
 
 ## 🚀 Demo / Live Site
-👉 [kakao 클론 홈페이지 바로가기](https://leehyejin0821.github.io/muji/)
+👉 [kakao 클론 홈페이지 바로가기](https://leehyejin0821.github.io/kakao/)
 
 ---
 
@@ -37,6 +37,6 @@
 ---
 
 ## 📷 작품 미리보기
-![kakao 클론 홈페이지 미리보기](./photo/muji_webpage.png)
+![kakao 클론 홈페이지 미리보기](./photo/preview.png)
 
 ---
