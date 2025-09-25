@@ -159,7 +159,7 @@ document.addEventListener(`DOMContentLoaded`, function () {
         if (el) {
           // 각 컨테이너 안의 pagination만 참조 (충돌 방지)
           const swiper = new Swiper(el, {
-            // spaceBetween: 16,
+            spaceBetween: 16,
             // slidesPerView: 1,
 
             pagination: {

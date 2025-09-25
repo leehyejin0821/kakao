@@ -849,7 +849,7 @@
   gap: 16px;
   margin-top: 62px;
 
-  /* width: 1368px; */
+  width: 1368px;
 }
 .sec_3 .card_grid_box .card_box1 .card {
   background-color: #f3f3f3;
@@ -936,7 +936,7 @@
   margin-top: 60px;
   height: 208px;
 
-  /* width: 1384px; */
+  width: 1384px;
 }
 
 .sec_3 .card_grid_box .card_box2 .swiper-pagination {
@@ -1585,16 +1585,16 @@
   .sec_3 .card_grid_box .card_box1 .image_box {
     height: 240px;
   }
-  /* .sec_3 .card_grid_box .card_box1 .card_wrap {
+  .sec_3 .card_grid_box .card_box1 .card_wrap {
     width: 968px;
-  } */
+  }
   .sec_3 .card_grid_box .card_box2 .card .text_box2 {
     font-size: 1.25rem;
   }
   .sec_3 .card_grid_box .card_box2 .card_wrap {
     margin-top: 40px;
     height: 172px;
-    /* width: 984px; */
+    width: 984px;
   }
   .sec_3 .card_grid_box .card_box3 .card {
     font-size: 1.25rem;
@@ -1649,8 +1649,8 @@
   }
   .sec_5 .top_card_box .card_box1 .text_box .text1 {
     display: flex;
-    gap: 0;
-    flex-direction: column;
+    gap: 4px;
+    /* flex-direction: column; */
   }
 
   .sec_5 .top_card_box .card_box1 .text_box .text2,
@@ -1895,7 +1895,7 @@
     height: 260px;
   }
   .sec_3 .card_grid_box .card_box1 .image_box {
-    height: 153px;
+    height: 300px;
   }
   .sec_3 .card_grid_box .card_box2 .card_wrap {
     margin-top: 24px;
@@ -2223,6 +2223,8 @@
   }
   .sec_5 .top_card_box .card_box1 .text_box .text1 {
     width: 86px;
+    gap: 0;
+    flex-direction: column;
   }
 
   .sec_5 .top_card_box .card_box2 .icon_box .icon {
@@ -2341,6 +2343,12 @@
   .sec_2 .card_grid_box {
     gap: 10px;
   }
+  .sec_2 .card_grid_box .card_box .app_box {
+    gap: 4px;
+  }
+  .sec_2 .card_grid_box .card_box {
+    font-size: 1rem;
+  }
 
   /* ---------------------------- */
   /* sec3 영역 */
@@ -2383,16 +2391,19 @@
   }
   .sec_4 .card_grid_box .card_box .card3,
   .sec_4 .card_grid_box .card_box1 .card3 {
-    font-size: 0.75rem;
-    width: 190px;
+    font-size: 1rem;
+    width: 247px;
   }
   .sec_4 .card_grid_box .card_box1 .card2,
   .sec_4 .card_grid_box .card_box2 .card2,
   .sec_4 .card_grid_box .card_box3 .card2 {
-    height: 88px;
+    height: 120px;
   }
   .sec_4 .card_grid_box {
     align-items: center;
+  }
+  .sec_4 .card_grid_box .card_box {
+    height: 224px;
   }
 
   /* ---------------------------- */
@@ -2409,7 +2420,6 @@
   }
   .sec_5 .top_card_box .card_box1,
   .sec_2 .card_grid_box .card1-3_wrap,
-  .sec_3 .card_grid_box .card_box1 .card_wrap,
   .sec_4 .card_grid_box,
   .sec_5 .top_card_box {
     gap: 12px;
@@ -2459,6 +2469,22 @@
     width: 16px;
     height: 16px;
   }
+
+  /* ---------------------------- */
+  /* 햄버거 영역 */
+
+  .hamburger_btn {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 24px 32px;
+    transition: 0.3s;
+    overflow-y: scroll;
+  }
 }
 /* ///////////////////////////////////////// */
 @media (max-width: 375px) {
@@ -2467,6 +2493,11 @@
   }
   .sec_5 .top_card_box .card_box2 .icon_box {
     gap: 24px;
+  }
+  .sec_4 .card_grid_box .card_box .card3,
+  .sec_4 .card_grid_box .card_box1 .card3 {
+    font-size: 0.75rem;
+    width: 192px;
   }
 }
 
