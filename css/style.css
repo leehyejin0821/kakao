@@ -172,29 +172,23 @@
 /* ///////////////////////////////////////// */
 /* 햄버거버튼 영역 */
 .hamburger_btn {
-  display: none;
-  /* z-index: 99999; */
+  z-index: 99999;
 
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   width: 412px;
   height: 100vh;
   background-color: #fff;
   padding: 24px 32px;
-}
 
-/* --------------------- */
-.hamburger_btn.on {
-  display: block;
-  z-index: 99999;
+  transition: 0.3s;
+  overflow-y: scroll;
 }
-/* --------------------- */
 
 .hamburger_btn .flex_wrap {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .hamburger_btn .top_box {
   display: flex;
@@ -204,6 +198,13 @@
 .hamburger_btn .top_box .icon {
   width: 26px;
   height: 26px;
+  cursor: pointer;
+}
+.hamburger_btn .content_wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hamburger_btn .center_box {
   display: flex;
@@ -223,6 +224,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  cursor: pointer;
 }
 .hamburger_btn .center_box .main .title {
   font-size: 1.37rem;
@@ -280,17 +282,40 @@
 .hamburger_btn .bottom_box .main .title {
   font-size: 1rem;
   font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .hamburger_btn .bottom_box .main .sub {
   font-size: 1rem;
   font-weight: 200px;
 }
 
+/* --------------------- */
+.hamburger_btn.on {
+  right: 0%;
+}
+.hamburger_btn .main_intro .sub_box_intro,
+.hamburger_btn .main_tech .sub_box_tech,
+.hamburger_btn .main_promise .sub_box_promise,
+.hamburger_btn .main_news .sub_box_news,
+.hamburger_btn .main_customer .sub_box_customer {
+  display: none;
+}
+.hamburger_btn .main_intro .sub_box_intro.on,
+.hamburger_btn .main_tech .sub_box_tech.on,
+.hamburger_btn .main_promise .sub_box_promise.on,
+.hamburger_btn .main_news .sub_box_news.on,
+.hamburger_btn .main_customer .sub_box_customer.on {
+  display: flex;
+}
+/* --------------------- */
+
 /* ///////////////////////////////////////// */
 /* 서치버튼 영역 */
 
 .search_btn {
-  position: absolute;
+  position: fixed;
   top: -100%;
   left: 0;
   width: 100%;
@@ -304,7 +329,6 @@
 /* ------------------------------- */
 
 .search_btn.on {
-  /* display: block; */
   top: 0;
   z-index: 99999;
 }
