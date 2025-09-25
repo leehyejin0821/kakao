@@ -192,3 +192,5 @@ document.addEventListener(`DOMContentLoaded`, function () {
   //   }
   // });
 }); //end
+
+// 수정1차;
